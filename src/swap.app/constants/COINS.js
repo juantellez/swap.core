@@ -6,6 +6,7 @@ export const NATIVE = {
   eos: 'EOS',
   nim: 'NIM',
   qtum: 'QTUM',
+  point: 'POINT',
   // usdtOmni: 'USDTomni',
 }
 

@@ -4,6 +4,7 @@ import BtcSwap from './BtcSwap'
 import BchSwap from './BchSwap'
 import LtcSwap from './LtcSwap'
 import EosSwap from './EosSwap'
+import PointSwap from './PointSwap'
 // import QtumSwap from './QtumSwap'
 // import UsdtSwap from './UsdtSwap'
 

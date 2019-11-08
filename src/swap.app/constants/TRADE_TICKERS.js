@@ -7,6 +7,7 @@ export default [
   'ETH-BCH',
   'ETH-LTC',
   'QTUM-BTC',
+  'POINT-BTC',
 
   ...Object.values(ETH_TOKENS).map(token => `${token}-BTC`),
   // ...Object.values(ETH_TOKENS).map(token => `${token}-USDT`),

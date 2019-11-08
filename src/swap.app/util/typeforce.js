@@ -23,6 +23,7 @@ const isCoinAddress = {
   [constants.COINS.bch]: (value) => typeof value === 'string' && /^[A-Za-z0-9:]{26,54}$/.test(value),
   [constants.COINS.ltc]: (value) => typeof value === 'string' && /^[A-Za-z0-9]{34}$/.test(value),
   [constants.COINS.qtum]: (value) => typeof value === 'string' && /^[A-Za-z0-9]{34}$/.test(value),
+  [constants.COINS.point]: (value) => typeof value === 'string' && /^[A-Za-z0-9]{34}$/.test(value),
   // [constants.COINS.usdt]: (value) => typeof value === 'string',
 }
 
@@ -33,6 +34,7 @@ const isPublicKey = {
   [constants.COINS.bch]: (value) => typeof value === 'string' && /^[A-Za-z0-9]{66}$/.test(value),
   [constants.COINS.ltc]: (value) => typeof value === 'string' && /^[A-Za-z0-9]{66}$/.test(value),
   [constants.COINS.qtum]: (value) => typeof value === 'string' && /^[A-Za-z0-9]{66}$/.test(value),
+  [constants.COINS.point]: (value) => typeof value === 'string' && /^[A-Za-z0-9]{66}$/.test(value),
   // [constants.COINS.usdt]: '?String', // TODO we don't have / use nim publicKey
 }
 

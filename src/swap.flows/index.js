@@ -18,6 +18,9 @@ import BTC2ETHTOKEN from './BTC2ETHTOKEN'
 
 import QTUM2BTC from './QTUM2BTC'
 import BTC2QTUM from './BTC2QTUM'
+
+import LTC2BTC from './POINT2BTC'
+import BTC2LTC from './BTC2POINT'
 // import USDT2ETHTOKEN from './USDT2ETHTOKEN'
 // import ETHTOKEN2USDT from './ETHTOKEN2USDT'
 
@@ -43,6 +46,9 @@ export {
 
   QTUM2BTC,
   BTC2QTUM,
+
+  POINT2BTC,
+  BTC2POINT,
 
   // USDT2ETHTOKEN,
   // ETHTOKEN2USDT,
